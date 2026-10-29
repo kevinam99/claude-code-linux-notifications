@@ -2,11 +2,12 @@
 
 Get a desktop notification when Claude Code finishes a response or needs your input. Each notification names the project and the conversation, so you can tell which one needs you when you run several at once.
 
-```
-Claude Code · my-app
-Conversation: Fix login redirect
-✅ Finished — ready for your next message
-```
+<p>
+  <img src="docs/linux-finished.png" width="295" alt="Linux notification: Claude Code · my-app, Conversation: Fix login redirect, ✅ Finished — ready for your next message">
+  <img src="docs/linux-question.png" width="218" alt="Linux notification: Claude Code · my-app, Conversation: Fix login redirect, ❓ Has a question for you">
+</p>
+
+<sub>Shown with XFCE's notification server. Other desktops style notifications their own way.</sub>
 
 | | When | Sound |
 |---|---|---|
