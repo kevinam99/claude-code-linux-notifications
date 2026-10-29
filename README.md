@@ -51,6 +51,7 @@ To turn sounds on or off or change them, use the `/linux-notifications:sound` co
 /linux-notifications:sound off          turn all sounds off
 /linux-notifications:sound on           go back to the default sounds
 /linux-notifications:sound test         send a test notification with each current sound
+/linux-notifications:sound preview bell hear a sound without changing anything
 /linux-notifications:sound done bell    change the "finished" sound
 /linux-notifications:sound input off    turn off only the "needs input" sound
 ```
