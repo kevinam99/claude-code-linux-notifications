@@ -44,7 +44,18 @@ If nothing appears, check that `notify-send --version` or `gdbus --version` work
 
 ## Settings
 
-Set these as environment variables in the `env` section of `~/.claude/settings.json`:
+To turn sounds on or off or change them, use the `/linux-notifications:sound` command in Claude Code:
+
+```
+/linux-notifications:sound              show the current sounds and the ones available
+/linux-notifications:sound off          turn all sounds off
+/linux-notifications:sound on           go back to the default sounds
+/linux-notifications:sound test         send a test notification with each current sound
+/linux-notifications:sound done bell    change the "finished" sound
+/linux-notifications:sound input off    turn off only the "needs input" sound
+```
+
+The command edits the settings below for you. To set them by hand, add them as environment variables in the `env` section of `~/.claude/settings.json`:
 
 ```json
 {
