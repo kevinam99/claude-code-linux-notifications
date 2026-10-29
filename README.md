@@ -114,6 +114,13 @@ This plugin deliberately sticks to what a desktop Linux system already has. The 
 - `tests/run.sh` runs the script in dry-run mode (`CLAUDE_NOTIFY_DRY_RUN=1`) against sample hook inputs and checks the title, subtitle, message and sound it would show.
 - `tests/integration.sh` needs Docker. It runs a real notification server (dunst on a virtual display) in a Debian container and checks with `dbus-monitor` what both the `notify-send` and the `gdbus` paths deliver, including sound handling.
 
+## Other platforms
+
+The same notifications are also available for other systems:
+
+- **macOS:** [claude-code-macos-notifications](https://github.com/kevinam99/claude-code-macos-notifications)
+- **Windows:** [claude-code-windows-notifications](https://github.com/kevinam99/claude-code-windows-notifications)
+
 ## License
 
 [MIT](LICENSE)
