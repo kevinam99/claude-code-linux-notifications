@@ -5,6 +5,7 @@ Get a desktop notification when Claude Code finishes a response or needs your in
 <p>
   <img src="docs/linux-finished.png" width="295" alt="Linux notification: Claude Code · my-app, Conversation: Fix login redirect, ✅ Finished — ready for your next message">
   <img src="docs/linux-question.png" width="218" alt="Linux notification: Claude Code · my-app, Conversation: Fix login redirect, ❓ Has a question for you">
+  <img src="docs/linux-permission.png" width="308" alt="Linux notification: Claude Code · my-app, Conversation: Fix login redirect, 🔐 Claude needs your permission to use Bash">
 </p>
 
 <sub>Shown with XFCE's notification server. Other desktops style notifications their own way.</sub>
