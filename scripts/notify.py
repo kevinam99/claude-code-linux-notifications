@@ -141,7 +141,8 @@ def show(title, body, sound, plays_own_sound):
             "--dest", "org.freedesktop.Notifications",
             "--object-path", "/org/freedesktop/Notifications",
             "--method", "org.freedesktop.Notifications.Notify",
-            gvariant_string(APP_NAME), "0", '""',
+            # Without "--", gdbus reads the trailing -1 (default timeout) as an option.
+            "--", gvariant_string(APP_NAME), "0", '""',
             gvariant_string(title), gvariant_string(body),
             "[]", hints, "-1",
         ])
