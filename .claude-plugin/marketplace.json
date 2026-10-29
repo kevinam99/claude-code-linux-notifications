@@ -1,0 +1,14 @@
+{
+  "name": "claude-code-linux-notifications",
+  "owner": {
+    "name": "Kevin Mathew",
+    "url": "https://github.com/kevinam99"
+  },
+  "plugins": [
+    {
+      "name": "linux-notifications",
+      "source": "./",
+      "description": "Linux desktop notifications when Claude Code finishes a response or needs your input, labelled with the project and conversation."
+    }
+  ]
+}

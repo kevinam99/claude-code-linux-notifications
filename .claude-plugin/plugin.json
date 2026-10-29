@@ -1,0 +1,13 @@
+{
+  "name": "linux-notifications",
+  "version": "1.0.0",
+  "description": "Linux desktop notifications when Claude Code finishes a response or needs your input, labelled with the project and conversation.",
+  "author": {
+    "name": "Kevin Mathew",
+    "url": "https://github.com/kevinam99"
+  },
+  "homepage": "https://github.com/kevinam99/claude-code-linux-notifications",
+  "repository": "https://github.com/kevinam99/claude-code-linux-notifications",
+  "license": "MIT",
+  "keywords": ["notifications", "linux", "hooks"]
+}
